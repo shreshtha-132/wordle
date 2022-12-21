@@ -1,0 +1,70 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* .correctLetter
+{
+    background-color: cornflowerblue;
+}
+.correctPlace
+{
+    background-color: green;
+}
+.wrongLetter
+{
+    background-color: rgb(53, 52, 52);
+} */
+
+.header
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: blanchedalmond;
+    font-size: 40px;
+}
+
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: rgb(235, 235, 146); */
+    background-color: black;
+}
+.virtual-keyboard
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input[type="text"] 
+{
+    height: 70px;
+    width: 70px;
+    margin: 2px;
+    padding-left: 5px;
+    background-color: white;
+    border: 2px solid grey;
+    /* background-color: black; */
+    text-justify: auto;
+    text-align: center;
+    font-size: 41px;
+    
+    
+    
+
+}
+input[type="button"] 
+{
+    height: 50px;
+    width: 50px;
+    margin: 2px;
+
+}
+
